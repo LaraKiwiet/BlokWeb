@@ -38,11 +38,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond/vind het erg lastig om de afbeeldingen zonder buttons te achterhalen omdat je deze niet kunt screenshotten zonder de buttons, hierdoor heb ik een button over de afbeelding geplaatst zodat het wel klikbaar kan worden.
+
+Ik vond het wel leuk om te doen maar erg veel omdat we ook opdrachten voor javascript moesten en daar heb ik iets meer moeite mee. Ook hadden we deadlines voor meerder vakken dus ik heb alleen een kort begin nog maar kunnen maken aan de eindopdracht.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![mirror](images/voortgang1.png)
 
 ### Agenda voor meeting
 
@@ -76,4 +78,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
 
 ![mirror](images/breakdownschets.carhartt.jpg)
+
+Omdat ik desktop versie had gedaan heb ik deze nogmaals van de mobiel gedaan.
+
+![mirror](images/BreakdownSchets_FED.png)
 
