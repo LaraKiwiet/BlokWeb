@@ -3,3 +3,51 @@
   box-sizing:border-box;  
 }
 
+*{
+	font-family: 'Karla', sans-serif;
+	margin:0em;
+}
+
+nav ul {
+	display:flex;
+ 	justify-content:space-between;
+ 	background-color:rgb(38,38,38);
+ 	color:rgb(255,255,255);
+ 	padding: 2em;
+ 	
+}
+
+img{
+	width: 100%;
+}
+
+section{
+	position: relative;
+}
+
+section h2 {
+	background-color: rgba(63,86,184);
+	color: rgb(255,255,255);
+	padding: 0.5em;
+	position: absolute;
+	left: 10em;
+	right: 10em;
+	top: 17.75em;
+
+}
+
+h2{
+	background-color: rgba(63,86,184);
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 2em;
+	padding: 0.7em;
+}
+
+h3{
+	background-color: rgba(63,86,184);
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 0.7em;
+}
