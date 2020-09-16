@@ -14,7 +14,7 @@ nav ul {
  	background-color:rgb(38,38,38);
  	color:rgb(255,255,255);
  	padding: 2em;
- 	
+ 	list-style: none;
 }
 
 img{
@@ -32,7 +32,7 @@ section h2 {
 	position: absolute;
 	left: 10em;
 	right: 10em;
-	top: 17.75em;
+	top: 10em;
 }
 
 h2{
@@ -49,4 +49,24 @@ h3{
 	text-align: center;
 	font-size: 1.5em;
 	padding-bottom: 0.7em;
+}
+
+nav ul li:first-of-type{
+	width: 8%;
+}
+
+nav ul li:nth-of-type(2){
+	width: 30%;
+	padding-top: 1em;
+}
+
+nav ul li:nth-of-type(3){
+	width: 10%;
+	margin-right: 0em;
+}
+
+nav ul li:nth-of-type(4){
+	width: 8%;
+	padding-top: 0.8em;
+	margin-left: 0em;
 }
