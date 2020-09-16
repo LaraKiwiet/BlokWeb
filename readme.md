@@ -42,6 +42,10 @@ Ik vond/vind het erg lastig om de afbeeldingen zonder buttons te achterhalen omd
 
 Ik vond het wel leuk om te doen maar erg veel omdat we ook opdrachten voor javascript moesten en daar heb ik iets meer moeite mee. Ook hadden we deadlines voor meerder vakken dus ik heb alleen een kort begin nog maar kunnen maken aan de eindopdracht.
 
+-- 
+
+Na de les heb ik de afbeelding kunnen fixen en veranderd zodat het nu weer kopt. Ook ben ik begonnen met de slideshow aan t begin met javascript.
+
 **Screenshot(s):**
 
 ![mirror](images/voortgang1.png)
