@@ -45,6 +45,7 @@ Ik vond het wel leuk om te doen maar erg veel omdat we ook opdrachten voor javas
 **Screenshot(s):**
 
 ![mirror](images/voortgang1.png)
+![mirror](images/vg2)
 
 ### Agenda voor meeting
 
