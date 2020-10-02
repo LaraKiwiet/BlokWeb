@@ -70,3 +70,19 @@ nav ul li:nth-of-type(4){
 	padding-top: 0.8em;
 	margin-left: 0em;
 }
+
+/* CSS voor Journal*/
+
+body.journal h1{
+	font-size: 4em;
+	color: black;
+	padding: 1em;
+}
+
+body.journal h2{
+	background-color: white;
+	color: black;
+	font-size: 1em;
+	text-align: left;
+	padding-left: 1em;
+}

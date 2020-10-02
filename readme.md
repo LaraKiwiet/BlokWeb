@@ -25,13 +25,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 3 (week 6)
 
 -same as voortgang 1-
+### Stand van zaken
 
+**Screenshot(s):**
+
+### Agenda voor meeting
+
+### Verslag van meeting
+-eind-
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+Deze week ben ik begonnen aan mijn tweede pagina en hier , tevens voor pagina 1 ook, alle content erin gezet die ik erin wilde hebben. Nu ben ik nog bezig om alle afbeeldingen goed te zetten en moet ik nog met css hovers werken om hetzelfde effect te krijgen als op de website zelf.
 
+Ook ben ik op de helft van de voortgang mijn tweede pagina opnieuw gaan maken omdat het allemaal even niet meer mee werkte.
+
+**Screenshot(s):**
+
+### Agenda voor meeting
+Keyframes
+Grids
+Feedback
+
+### Verslag van meeting
 
 
 ## Voortgang 1 (week 3)
@@ -53,13 +71,13 @@ Na de les heb ik de afbeelding kunnen fixen en veranderd zodat het nu weer kopt.
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+We hadden het verkeerd begrepen en allemaal kleine vragen per persoon op papier opgeschreven.
+
+Zelf had ik vragen over het goed opslaan van afbeeldingen en een hamburgermenu.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
-
+We hebben kleine vragen van iedereen kunnen beantwoorden, we hebben tips gekregen van een uitklap menu die erg handig waren. Echter twijfel ik persoonlijk nog of ik die ga gebruiken. Ook hebben we het nog kort over positionering van afbeeldingen gehad.
 
 ## Intake (week 1)
 
