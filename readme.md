@@ -43,6 +43,8 @@ Deze week ben ik begonnen aan mijn tweede pagina en hier , tevens voor pagina 1 
 Ook ben ik op de helft van de voortgang mijn tweede pagina opnieuw gaan maken omdat het allemaal even niet meer mee werkte.
 
 **Screenshot(s):**
+![mirror](images/voortgang21.png)
+![mirror](images/voortgang22.png)
 
 ### Agenda voor meeting
 Keyframes
