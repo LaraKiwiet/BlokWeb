@@ -7,32 +7,40 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.carhartt-wip.com/en
-2. -bron 2-
-3. -...-
+2. https://css-tricks.com
+3. https://www.rapidtables.com/web/html/html-codes/
+4. https://validator.w3.org/
+5. dlo
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
+Alles ging volgens plan totdat mijn css helemaal in de soep liep, ik heb besloten om de css voor mijn index opnieuw te schijven en deze nu in een los css bestand te maken. Hierdoor ben ik veel tijd verloren. Al met al ging het goed en ben ik redelijk tevreden met het eindresultaat Als ik 1 dag meer had gehad was het zodal ik het zou willen. Deze week heb ik ook pas alles responsive gemaakt omdat ik eerst wilde dat alles klopte.
 
 -screenshot(s) van je eindresultaat-
-
+![mirror](images/journaleind1.png)
+![mirror](images/journaleind2.png)
+![mirror](images/indexeind1.png)
+![mirror](images/indexeind2.png)
 
 
 ## Voortgang 3 (week 6)
-
--same as voortgang 1-
 ### Stand van zaken
+Deze week had ik iets minder gedaan dan de vorige weken, wel had beide pagina's mooi met css voorzien, naast een paar kleine elementen. 
 
 **Screenshot(s):**
+![mirror](images/voortgang31.png)
+![mirror](images/voortgang32.png)
+![mirror](images/voortgang33.png)
 
 ### Agenda voor meeting
+Grids
+Feedback
+Specifieke vragen van Marlene en Anousha, ik had er op het moment geen.
 
 ### Verslag van meeting
--eind-
+Nieuwe tricks geleerd met klikken en automatisch omhoog scrollen
 
 
 ## Voortgang 2 (week 5)
@@ -52,6 +60,7 @@ Grids
 Feedback
 
 ### Verslag van meeting
+
 
 
 ## Voortgang 1 (week 3)
