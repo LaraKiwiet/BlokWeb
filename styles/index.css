@@ -144,6 +144,26 @@ footer p{
 	padding-top: 1em;
 }
 
+/*	Javascript stijling	*/
+
+#fotobladeren {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ button#terug {
+    height: 5em;
+}
+
+button#vooruit {
+    height: 5em;
+}
+
+p:first-of-type {
+	text-align: center;
+}
+
 /*breakdown 600px*/
 
 @media(min-width: 600px){

@@ -14,7 +14,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Herkansing
 
+Voor de herkansing heb ik nog best veel gedaan. Ik heb ervoor gezorgd dat producten hovers hebben  gekregen met een bepaalde tekst zodat , je in principe, naar het product of de categorie kunt gaan van de afbeelding. Ik heb ook erg lang met javascript lopen sparren om een slideshow te maken op de eerst pagina voor de banner. Ook is de header iets verfijnder met het menu en het winkelkarretje.
 
+Omdat Je vorige keer nog niet kon tabben heb ik dit nu ook toegevoegd en kun je bijna door alles heen tabben. Ik heb de footer ook verfijnder gemaakt en staat nu mooi onder elkaar. Ook de menubalk is nu sticky zodat je die altijd kunt bereiken zonder te scrollen.
+
+Sommige elementen die nog niet helemaal goed responsive zijn heb ik nu kunnen fixen, zoals het ontzichtbare grid die ergens stond?!
+
+-screenshot(s) van je eindresultaat-
+![mirror](images/journalher1.png)
+![mirror](images/indexher1.png)
+![mirror](images/footerher.png)
 
 
 ## Eindgesprek (week 7/8)
