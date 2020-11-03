@@ -12,6 +12,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://validator.w3.org/
 5. dlo
 
+## Herkansing
+
+
 
 
 ## Eindgesprek (week 7/8)

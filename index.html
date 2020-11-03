@@ -19,13 +19,13 @@
 		<nav>
 			<ul>
 				<li>
-					<img src="images/menu.png" alt="menu balk">
+					<a href="#"><img src="images/menu.png" alt="menu balk"></a>
 				</li>
 				<li>
-					<img src="images/carhartt-logo.png" alt="logo carhartt"> 
+					<a href="#"><img src="images/carhartt-logo.png" alt="logo carhartt"> </a>
 				</li>
 				<li>
-					<img src="images/winkelkar.png" alt="winkelkart">
+					<a href="#"><img src="images/winkelkar.png" alt="winkelkart"></a>
 				</li>
 			</ul>
 		</nav>
@@ -33,7 +33,15 @@
 
 	<main>
 		<section>
-			<img src="images/slide1.jpeg" alt="man en hond met petten van carhartt">			
+			<div  id='fotobladeren'>
+			    <button id='terug'>&lt;</button>
+			        <img src="images/slide1.jpeg" alt="man en hond met petten van carhartt" id='foto'>
+			        <p><span id='huidigeFotoNr'>huidig</span>/<span id='laatsteFotoNr'>aantal</span></p>
+			        </div>
+			        <div>
+			    <button id='vooruit'>&gt;</button>
+			</div>
+
 			<h2>
 				Free shipping on orders over &euro;99
 			</h2>
@@ -41,14 +49,30 @@
 				And 60 Days Return Policy. Click here for more details.
 			</h3>
 		</section>	
+
 		<section>
-			<img src="images/promo1.jpeg" alt="Army Jack">
-			<img src="images/promo2.jpeg" alt="Beige Broek">
+		<div class="container">
+			<a href="#">
+				<img src="images/promo1.jpeg" alt="jas" class="image">
+			</a>
+			<div class="overlay">
+		    	<div class="text">Jassen</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<a href="#">
+				<img src="images/promo2.jpeg" alt="Beige broek" class="image">
+			</a>
+			<div class="overlay">
+		    	<div class="text">Broeken</div>
+		    </div>
+		</div>
 		</section>
 		
 		<section>
 			<figure>
-				<img src="images/journal1.jpeg" alt="Jongeman met een blauw/zwartgevlekte windjack ">
+				<img src="images/journal1.jpeg" alt="Jongeman met een blauw/zwartgevlekte windjack">
 				<figcaption>Comming Soon: Carhartt WIP X SUPPLY</figcaption>
 			</figure>
 
@@ -57,28 +81,28 @@
 		
 		<section>
 			<figure>
-				<img src="images/supply1.jpeg" alt="blauw/zwartgevlekte Supply Windjack">
+				<a href="#"><img src="images/supply1.jpeg" alt="blauw/zwartgevlekte Supply Windjack"></a>
 				<figcaption>
 					Jacket 
 					&euro; 119,95
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="images/supply2.jpeg" alt="Witte trui">
+				<a href="#"><img src="images/supply2.jpeg" alt="Witte trui"></a>
 				<figcaption>
 					Sweater
 					&euro;69,95
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="images/supply3.jpeg" alt="blauw/zwartgevlekte Carharttxsupply cap">
+				<a href="#"><img src="images/supply3.jpeg" alt="blauw/zwartgevlekte Carharttxsupply cap"></a>
 				<figcaption>
 					Cap
 					&euro; 34,99
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="images/supply6.jpeg" alt="blauw/zwartgevlekte shopper">
+				<a href="#"><img src="images/supply6.jpeg" alt="blauw/zwartgevlekte shopper"></a>
 				<figcaption>
 					Bag
 					&euro; 29,95
@@ -87,23 +111,37 @@
 			
 		</section>
 		<section>
-			<img src="images/men.jpeg" alt="Mannen">
-			<img src="images/women.jpeg" alt="Vrouwen">
+			<div class="container">
+				<a href="#">
+					<img src="images/men.jpeg" alt="Mannen" class="image">
+				</a>
+				<div class="overlay">
+			    	<div class="text">Mannen</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<a href="#">
+					<img src="images/women.jpeg" alt="Vrouwen" class="image">
+				</a>
+				<div class="overlay">
+			    	<div class="text">Vrouwen</div>
+				</div>
+			</div>
 		</section>
 	</main>
 
 	<footer>
 		<section>
 			<ul>
-				<li>FAQ</li>
-				<li>Terms & Conditions </li>
-				<li>Imprint</li>
-				<li>Privacy Statement</li>
-				<li>Jobs</li>
-				<li>Contact</li>
-				<li>History</li>
-				<li>Corporate Responsibility</li>
-				<li>Complience</li>
+				<a href="#"><li>FAQ</li></a>
+				<a href="#"><li>Terms & Conditions </li></a>
+				<a href="#"><li>Imprint</li></a>
+				<a href="#"><li>Privacy Statement</li></a>
+				<a href="#"><li>Jobs</li></a>
+				<a href="#"><li>Contact</li></a>
+				<a href="#"><li>History</li></a>
+				<a href="#"><li>Corporate Responsibility</li></a>
 			</ul>
 		</section>
 		<section>
@@ -111,7 +149,7 @@
 				Sign up for our newsletter and get 10% off
 			</h2>
 			<button>
-				Subscribe
+				<a href="#">Subscribe</a>
 			</button>
 		</section>
 		<p>&copy;2020 Work In Progress</p>

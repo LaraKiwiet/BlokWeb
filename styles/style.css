@@ -48,35 +48,48 @@ main section{
 }
 
 /* Nav */
+header{
+		position: sticky;
+		top: 0;
+		z-index: 10;
+	}
+
 nav ul {
 	display:flex;
  	justify-content:space-between;
  	background-color:rgb(38,38,38);
  	color:rgb(255,255,255);
- 	padding: 2em;
+ 	padding: 1em;
  	list-style: none;
 }
 
 nav ul li:first-of-type{
 	width: 8%;
+	padding-top: 1em;
 }
 
 nav ul li:nth-of-type(2){
-	width: 30%;
+	width: 40%;
+	padding-top: 0.5em;
 }
 
 nav ul li:nth-of-type(3){
-	width: 8%;
+	width: 6%;
 	margin-right: 0em;
+	padding-top: 1em;
 }
 
 /* Footer */
-footer section ul li {
-	list-style: none;
+footer section a{
+	text-decoration: none;
+	padding: 0.5em;
+	font-size: 1em;
 	text-align: center;
-	padding-top: .5em;
-	padding-bottom: .5em;
-	font-size: 0.8em;
+	color: rgb(36,36,36);
+}
+
+footer section:nth-of-type(2){
+	background-color: rgb(63,86,184);
 }
 
 footer section h2 {
@@ -87,17 +100,16 @@ footer section h2 {
 	margin:0em;
 	font-size: 1em;
 	text-align: center;
-	padding-bottom: 4em;
 }
 
 footer section button{
-	margin-left: 40%;
-	font-size: 1em;
+	margin-left: 45%;
+	font-size: 1.2em;
 	background-color: white;
 	border: 1.5px solid black;
 	border-radius: 4px;
 	padding:0.5em;
-	z-index: 4;
+	margin-bottom: 1em;
 }
 
 footer p{
@@ -148,12 +160,12 @@ footer p{
  		justify-content:space-between;
  		background-color:rgb(38,38,38);
  		color:rgb(255,255,255);
- 		padding: 2em;
+ 		padding: 1em;
  		list-style: none;
 	}
 
 	nav ul li:first-of-type{
-		width: 8%;
+		width: 5%;
 	}
 
 	nav ul li:nth-of-type(2){
@@ -162,15 +174,21 @@ footer p{
 	}
 
 	nav ul li:nth-of-type(3){
-		width: 8%;
+		width: 5%;
 		margin-right: 0em;
 	}
 
 /* Footer */
-	footer section ul li {
-		list-style: none;
+	footer section a{
+		text-decoration: none;
+		padding: 0.5em;
+		font-size: 1em;
 		text-align: center;
-		padding-top: 1em;
+		color: rgb(36,36,36);
+	}
+
+	footer section:nth-of-type(2){
+		background-color: rgb(63,86,184);
 	}
 
 	footer section h2 {
@@ -181,7 +199,6 @@ footer p{
 		margin:0em;
 		font-size: 1em;
 		text-align: center;
-		padding-bottom: 4em;
 	}
 
 	footer section button{
@@ -191,6 +208,7 @@ footer p{
 		border: 1.5px solid black;
 		border-radius: 4px;
 		padding:0.5em;
+		margin-bottom: 1em;
 	}
 
 	footer p{
@@ -206,7 +224,6 @@ footer p{
 	main section{
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
-  			grid-template-rows: repeat(2, 1fr);
   			grid-gap: 1em
 		}
 
@@ -237,38 +254,19 @@ footer p{
 		text-align: left;
 	}
 
-/* nav */
-	nav ul {
-		display:flex;
- 		justify-content:space-between;
- 		background-color:rgb(38,38,38);
- 		color:rgb(255,255,255);
- 		padding: 2em;
- 		list-style: none;
-	}
-
-	nav ul li:first-of-type{
-		width: 8%;
-	}
-
-	nav ul li:nth-of-type(2){
-		width: 30%;
-		padding-top: 1em;
-	}
-
-	nav ul li:nth-of-type(3){
-		width: 8%;
-		margin-right: 0em;
-	}
-
 /* Footer */
-	footer section ul li {
-		list-style: none;
+	footer section a{
+		text-decoration: none;
+		padding: 0.5em;
+		font-size: 1em;
 		text-align: center;
-		padding-top: 1em;
-		font-size: 1.2em;
+		color: rgb(36,36,36);
 	}
 	
+	footer section:nth-of-type(2){
+		background-color: rgb(63,86,184);
+	}
+
 	footer section h2 {
 		background-color: rgb(63,86,184);
 		color: rgb(255,255,255);
@@ -277,7 +275,6 @@ footer p{
 		margin:0em;
 		font-size: 1em;
 		text-align: center;
-		padding-bottom: 4em;
 	}
 
 	footer section button{
@@ -287,10 +284,52 @@ footer p{
 		border: 1.5px solid black;
 		border-radius: 4px;
 		padding:0.5em;
+		margin-bottom: 1em;
 	}
 
 	footer p{
-		font-size: 1em;
+		font-size: 2em;
 		text-align: center;
 	}
+}
+
+/*overlays img*/
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(36,36,36);
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
 }
